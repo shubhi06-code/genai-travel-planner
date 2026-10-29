@@ -1,0 +1,26 @@
+# --- Core web framework -------------------------------------------------
+Flask==3.1.0
+flask-cors==5.0.1
+Werkzeug==3.1.3
+
+# --- Validation ---------------------------------------------------------
+pydantic==2.10.6
+
+# --- Configuration ------------------------------------------------------
+python-dotenv==1.1.0
+
+# --- AI (Google Gen AI SDK / Gemini) ------------------------------------
+google-genai==1.3.0
+
+# --- Database (Supabase) ------------------------------------------------
+supabase==2.15.0
+
+# --- External HTTP calls (optional mapping / places / weather) ---------
+httpx==0.28.1
+
+# --- Auth (optional Supabase JWT validation) ---------------------------
+PyJWT==2.10.1
+
+# --- Testing ------------------------------------------------------------
+pytest==8.3.5
+pytest-cov==6.0.0
